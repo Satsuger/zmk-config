@@ -75,7 +75,7 @@
             bindings = <
 &kp TAB           &kp N0        &kp N1        &kp N2    &kp N3  &kp EQUAL    &bt BT_CLR    &bt BT_SEL 0       &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3  &kp BSPC
 &kp LEFT_SHIFT    &kp ASTERISK  &kp NUMBER_4  &kp N5    &kp N6  &kp PLUS     &out OUT_TOG  &kp LEFT_ARROW     &kp UP          &kp RIGHT_ARROW  &trans        &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp SLASH     &kp N7        &kp N8    &kp N9  &kp MINUS    &sys_reset    &ext_power EP_TOG  &kp DOWN_ARROW  &sl 0            &sl 2         &sl 1
+&kp LEFT_CONTROL  &kp SLASH     &kp N7        &kp N8    &kp N9  &kp MINUS    &sys_reset    &ext_power EP_TOG  &kp DOWN_ARROW  &layer_set 0     &layer_set 2  &layer_set 1
                                               &kp LGUI  &trans  &kp SPACE    &kp SPACE     &trans             &kp RALT
             >;
         };
