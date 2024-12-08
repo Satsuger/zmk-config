@@ -21,24 +21,10 @@
             bindings = <&kp ENTER>;
             key-positions = <22 23>;
         };
-    };
 
-    behaviors {
-        dbl_layer_set_left {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            bindings = <
-                &layer_set 1 // Set layer 0 on double-click
-                &mo 1       
-            >;
-        };
-        dbl_layer_set_right {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            bindings = <
-                &layer_set 2 // Set layer 0 on double-click
-                &mo 2       
-            >;
+        homeLayer {
+            bindings = <&to 0>;
+            key-positions = <37 40>;
         };
     };
 
