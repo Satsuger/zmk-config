@@ -57,9 +57,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE         &kp EXCL           &kp AT           &kp HASH         &kp DLLR                       &kp PRCNT                          &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LEFT_SHIFT    &trans             &trans           &trans           &trans                         &trans                             &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LEFT_CONTROL  &ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(0,0,82)  &rgb_ug RGB_COLOR_HSB(0,100,50)    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+&kp TILDE         &kp EXCL           &kp AT           &kp HASH         &kp DLLR                       &kp PRCNT                          &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans    &kp BSPC
+&kp LEFT_SHIFT    &trans             &trans           &trans           &trans                         &trans                             &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH  &kp GRAVE
+&kp LEFT_CONTROL  &ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(0,0,82)  &rgb_ug RGB_COLOR_HSB(0,100,50)    &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE  &kp TILDE
                                                       &kp LGUI         &trans                         &kp SPACE                          &kp SPACE  &trans     &kp RALT
             >;
         };
